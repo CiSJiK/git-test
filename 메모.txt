@@ -11,4 +11,6 @@ git mv 사용시 위치가 변경되면 다시 커밋. 이름 변경은 mv와 �
 단순히 수정한 내역만 있을 경우 git add --update로 처리 가능. 
 checkout 이전 내용으로 변경. 
 commit --allow-empty-meesage : 빈 커밋 작성 허용.
+커밋 로그 확인시 --pretty=short사용 -> 커밋 메시지 한줄만 표기. 그닥 의미 있는건아님.
+커밋ID는 SHA1 알고리즘으로 표기되며 git show <ID>로 확인 가능.
 
