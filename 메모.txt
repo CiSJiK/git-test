@@ -14,3 +14,4 @@ commit --allow-empty-meesage : 빈 커밋 작성 허용.
 커밋 로그 확인시 --pretty=short사용 -> 커밋 메시지 한줄만 표기. 그닥 의미 있는건아님.
 커밋ID는 SHA1 알고리즘으로 표기되며 git show <ID>로 확인 가능.
 
+git log <파일> 특정 파일 로그만 확인. diff <파일>은 스테이지 상태와 언스테이지 상태의 파일을 비교해줌. diff head는 마지막 커밋과 비교해줌. commit -v 사용시 diff 내역을 커밋 메시지에 추가함.
